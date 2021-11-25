@@ -8,9 +8,13 @@ int main(){
 	string variabel_beratbadan;
 	float variabel_tinggibadan;
 //	
+	cout << "Masukkan nama anda: ";
 	getline(cin,variabel_nama);
+	cout << "Masukkan golongan darah anda: ";
 	cin>>variabel_goldar;
+	cout << "Masukkan berat badan anda: ";
 	cin>>variabel_beratbadan;
+	cout << "Masukkan tinggi badan anda: ";
 	cin>>variabel_tinggibadan;
 //	
 	cout<<"Nama              :"<<variabel_nama<<endl;
