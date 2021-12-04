@@ -7,7 +7,7 @@ int main(){
 	string variabel_goldar;
 	string variabel_beratbadan;
 	float variabel_tinggibadan;
-//	
+//	input
 	cout << "Masukkan nama anda: ";
 	getline(cin,variabel_nama);
 	cout << "Masukkan golongan darah anda: ";
@@ -16,7 +16,7 @@ int main(){
 	cin>>variabel_beratbadan;
 	cout << "Masukkan tinggi badan anda: ";
 	cin>>variabel_tinggibadan;
-//	
+//	output
 	cout<<"Nama              :"<<variabel_nama<<endl;
 	cout<<"Golongan Darah    :"<<variabel_goldar<<endl;
 	cout<<"Berat Badan       :"<<variabel_beratbadan<<" kg"<<endl;
